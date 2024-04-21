@@ -1,9 +1,5 @@
 package entity
 
-import (
-	"gorm.io/gorm"
-)
-
 type User struct {
 	Base `gorm:"embedded"`
 	Name string
